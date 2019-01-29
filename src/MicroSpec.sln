@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroSpec", "MicroSpec\MicroSpec.csproj", "{338E7352-F07B-4226-93D6-8A891F101B63}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D082FF7F-7A15-4213-A016-00B22B1F4A38}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +21,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{338E7352-F07B-4226-93D6-8A891F101B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{338E7352-F07B-4226-93D6-8A891F101B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{338E7352-F07B-4226-93D6-8A891F101B63}.Production|Any CPU.ActiveCfg = Production|Any CPU
-		{338E7352-F07B-4226-93D6-8A891F101B63}.Production|Any CPU.Build.0 = Production|Any CPU
 		{338E7352-F07B-4226-93D6-8A891F101B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{338E7352-F07B-4226-93D6-8A891F101B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
