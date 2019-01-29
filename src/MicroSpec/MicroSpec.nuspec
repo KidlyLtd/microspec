@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MicroSpec</id>
+    <version>$version$</version>
+    <authors>KIDLY Limited</authors>
+    <owners>KIDLY Limited</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MicroSpec assembly that enables GIVEN WHEN THEN syntax in Unit Tests.</description>
+    <releaseNotes>MicroSpec assembly</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>MicroSpec</tags>
+  </metadata>
+</package>
