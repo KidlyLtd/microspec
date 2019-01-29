@@ -1,2 +1,2 @@
 # microspec
-Enables GIVEN WHEN THEN syntax in Unit Tests
+Enables GIVEN WHEN THEN syntax in Unit Tests.
